@@ -1,5 +1,4 @@
 ﻿using WpfFileDialog.Models;
-using WpfTreeView;
 
 namespace WpfFileDialog.ViewModels
 {

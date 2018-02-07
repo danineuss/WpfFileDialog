@@ -1,7 +1,7 @@
-﻿using PropertyChanged;
-using System.ComponentModel;
+﻿using System.ComponentModel;
+using PropertyChanged;
 
-namespace WpfTreeView
+namespace WpfFileDialog.ViewModels
 {
     /// <summary>
     /// A base view model that fires Property Changed events as needed
