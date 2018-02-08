@@ -2,6 +2,17 @@
 {
     public class FileContainer
     {
-        public string Name { get; set; }
+        private string name;
+
+        public string Name
+        {
+            get => name;
+            set => name = value;
+        }
+
+        public FileContainer(string name)
+        {
+            this.name = name;
+        }
     }
 }
