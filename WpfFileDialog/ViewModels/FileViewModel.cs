@@ -22,7 +22,7 @@ namespace WpfFileDialog.ViewModels
 
         public FileViewModel()
         {
-            name = "123";
+            name = "";
             fileContainer = new FileContainer(name);
         }
 
@@ -52,7 +52,8 @@ namespace WpfFileDialog.ViewModels
 
         public void FetchFile()
         {
-            Name = "abc";
+            FileDialog fileDialog = new FileDialog();
+            Name = fileDialog.FetchName();
         }
     }
 }
